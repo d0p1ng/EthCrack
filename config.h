@@ -1,0 +1,8 @@
+#define THREADS 10
+#define SLEEP_TIME 1
+#define VERBOSE
+#define ENDLESS
+//#define MULTITHREADED
+#define MAX_FACTOR 0x7FFFFFFFFFFFFFFF
+
+#define VERSION "0.5"

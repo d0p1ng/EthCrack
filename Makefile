@@ -1,0 +1,2 @@
+all:
+        gcc -IC:\MinGW\msys\1.0\include\curl  ethcrack.c ethcrack/generator.c ethcrack/checker.c cjson/cJSON.c cjson/cJSON_Utils.c ethcrack/calculator.c crypto/sha3/sha3.c crypto/secp256k1/secp256k1.c -lcurldll -L C:\MinGW\msys\1.0\lib -lpthread -lgmp
